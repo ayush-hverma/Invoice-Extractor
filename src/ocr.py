@@ -1,6 +1,7 @@
 import pytesseract
 from PIL import Image
-#For render
+
+# REQUIRED for Docker-based deployment
 pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 
 def extract_text_from_image(image_path):
