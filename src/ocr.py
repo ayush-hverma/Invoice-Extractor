@@ -1,9 +1,9 @@
-import pytesseract
+import easyocr
 from PIL import Image
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+reader = easyocr.Reader(['en'], gpu=False)
 
 def extract_text_from_image(image_path):
-    image = Image.open(image_path)
-    text = pytesseract.image_to_string(image)
+    result = reader.readtext(image_path, detail=0)
+    text = "\n".join(result)
     return text

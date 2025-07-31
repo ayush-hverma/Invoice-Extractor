@@ -1,4 +1,4 @@
-pytesseract
+easyocr
 pdf2image
 Pillow
 opencv-python
