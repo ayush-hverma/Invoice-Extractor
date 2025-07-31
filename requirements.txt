@@ -1,6 +1,5 @@
-easyocr
-pdf2image
-Pillow
-opencv-python
-python-dotenv
 streamlit
+transformers
+torch
+Pillow
+pdf2image
