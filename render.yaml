@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: invoice-extractor
-    env: python
-    buildCommand: "./setup.sh && pip install -r requirements.txt"
-    startCommand: "streamlit run app.py --server.port $PORT"
-    plan: free
