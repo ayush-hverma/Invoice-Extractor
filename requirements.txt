@@ -1,5 +1,6 @@
-streamlit
-transformers
-torch
-Pillow
+pytesseract
 pdf2image
+Pillow
+opencv-python
+python-dotenv
+streamlit
