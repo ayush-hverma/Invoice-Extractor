@@ -17,6 +17,3 @@ This project is an end-to-end system to extract key information (like **invoice 
 - 🧪 Easily extendable to integrate Donut, LayoutLM, or TrOCR
 
 ---
-
-## 📦 Folder Structure
-
