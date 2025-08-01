@@ -37,7 +37,6 @@ if uploaded_file:
 
         st.download_button("📥 Download JSON", json.dumps(all_fields, indent=2), file_name="invoice_data.json")
 
-# ✅ Required for Render
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8501))
     os.system(f"streamlit run app.py --server.port={port} --server.enableCORS=false")
